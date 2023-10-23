@@ -16,7 +16,7 @@ namespace VideoPoker
         private List<Suits> suitsList;
 
         private const int DECK_SIZE = 52;
-    
+
         private void Initialize()
         {
             InitializeCardRankList();
@@ -24,18 +24,7 @@ namespace VideoPoker
             InitializeDeck();
             Shuffle();
         }
-    
-        // public static DeckManager Instance
-        // {
-        //     get
-        //     {
-        //         if (_instance == null)
-        //         {
-        //             _instance = new DeckManager();
-        //         }
-        //         return _instance;
-        //     }
-        // }
+
         private void Start()
         {
             Initialize();
