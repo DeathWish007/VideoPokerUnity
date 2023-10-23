@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b65f67a7-1d94-2179-be0c-618b6da5a13e}</ProjectGuid>
+    <ProjectGuid>{b6d023fc-3bb7-efe9-b9f8-68b6680dfa3f}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -41,18 +41,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\DeckManager.cs" />
-     <Compile Include="Assets\Scripts\Card\Suits.cs" />
      <Compile Include="Assets\Scripts\Card\CardRank.cs" />
-     <Compile Include="Assets\Scripts\Card\Card.cs" />
-     <Compile Include="Assets\Scripts\Card\CardDealer.cs" />
      <Compile Include="Assets\Scripts\Card\CardButtonPrefab.cs" />
      <Compile Include="Assets\Scripts\GameStates.cs" />
      <Compile Include="Assets\Scripts\PokerDealRanks.cs" />
-     <Compile Include="Assets\Scripts\DealEvaluator.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\PayoutDeals.cs" />
+     <Compile Include="Assets\Scripts\Card\Card.cs" />
+     <Compile Include="Assets\Scripts\DealEvaluator.cs" />
+     <Compile Include="Assets\Scripts\Managers\DeckManager.cs" />
+     <Compile Include="Assets\Scripts\Card\Suits.cs" />
+     <Compile Include="Assets\Scripts\Card\CardDealer.cs" />
+     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Scripts\Card" />
@@ -675,34 +675,34 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\RishiPrakaashSriniva\MobilitywareTest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\RishiPrakaashSriniva\VideoPoker\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
